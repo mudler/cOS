@@ -6,6 +6,8 @@ push_cache: false
 pipeline: "nightly"
 publishing_pipeline: false
 repository: "releases"
+cache_repository: "build"
+organization: "quay.io/costoolkit"
 skip_tests: false
 flavors: ["opensuse", "fedora", "ubuntu"]
 skip_tests_flavor: ["fedora","ubuntu"]
